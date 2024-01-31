@@ -1,6 +1,7 @@
 import { Container } from "@mui/material"
 
-import { Outlet } from "react-router-dom"
+
+import AppRoute from "./routes/AppRoute"
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
 
   return ( 
       <Container maxWidth={false} disableGutters sx={{ display:"flex", justifyContent:"center", alignItems:"center", backgroundColor:"green"}}>
-        <Outlet/>
+        <AppRoute/>
       </Container>
       
   )
