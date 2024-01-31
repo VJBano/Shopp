@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "private": true,
+  "homepage": "https://vjbano.github.io/Shopp//",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -7,11 +7,11 @@ import AppRoute from "./routes/AppRoute.tsx";
 
 const router = createBrowserRouter([
   {
-    path:"/vanz-shopp/",
+    path:"/Shopp/",
     element:<App/>,
     children: [
       {
-        path:"/vanz-shopp/",
+        path:"/Shopp/",
         element:<AppRoute/>
       }
       
