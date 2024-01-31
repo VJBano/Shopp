@@ -6,7 +6,7 @@ const AppRoute = () => {
 
   return (
     <Routes>
-        <Route path='/' index element={<LandingPage/>}/>
+        <Route path='/vanz-shopp/' index element={<LandingPage/>}/>
     </Routes>
   )
 }
