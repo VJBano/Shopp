@@ -7,6 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     include: ['@emotion/styled'],
   },
+  base:"/vanz-shopp",
   server: {
     host:true,
     strictPort:true,
