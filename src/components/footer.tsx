@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <div>
       <Typography>This is Footer</Typography>
+      
     </div>
   )
 }
