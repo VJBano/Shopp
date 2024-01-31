@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import {  RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./index.css"
-import LandingPage from "./pages/landingPage.tsx";
+import AppRoute from "./routes/AppRoute.tsx";
 
 const router = createBrowserRouter([
   {
@@ -11,11 +11,9 @@ const router = createBrowserRouter([
     element:<App/>,
     children: [
       {
-        path:"/Shopp/",
-        element:<LandingPage/>
+        path:"/Shopp",
+        element:<AppRoute/>
       }
-      
-
     ]
   }
 ])
